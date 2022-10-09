@@ -1,0 +1,55 @@
+.paragraf-perevag{
+    line-height: 1.7;
+}
+.section-perevag{
+    background-color:var(--dcg-color) ;
+    padding-top: 0;
+    margin-top: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-perevag{
+    display: flex;
+}
+.flex-conteineri {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.card-perevag:not(:last-child) {
+    
+    margin-right: 30px;
+}
+.card-perevag{
+flex-basis: calc(100% / 4 - 30px);}
+
+/* скрыть заголовок */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.section-tit{
+    margin-bottom: 10px;
+    width: 270px;
+    
+    color: var(--title-text-color) ;
+    text-transform: uppercase ;
+    @include front(700, 14px);
+    line-height: 1.14;
+}
+.perevagu-card{
+    @extend %flex-center;
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,52 @@
+.hero{
+    display: flex;
+    font-family: 'Roboto';
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)), url(../images/Img\ hero.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+       &__conteiner{
+        @extend %flex-center;
+           margin-left: auto;
+           margin-right: auto;
+           width: 1200px;
+           padding-left: 15px;
+           padding-right: 15px; 
+        }
+       &__text{
+           max-width: 696px;
+           margin: auto;
+           margin-top: 0;
+           margin-bottom: 30px;
+           color: var(--tres-text) ;
+           text-transform: uppercase;
+           @include front(900, 44px);
+           text-align: center;
+           line-height: 1.36;
+        }
+        &__button{
+        
+           border: none;
+           border-radius: 4px;
+           padding: 10px 32px;
+           color: var(--tres-text) ;
+           background-color: var(--accent-color);
+           font-family: inherit;
+           @include front(700, 16px);
+           line-height: 1.88;
+           letter-spacing: 0.06em;
+           cursor: pointer;
+           transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+               &:hover,
+               &:focus{
+                    background-color: #188CE8;
+                }
+        }
+}
+

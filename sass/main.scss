@@ -1,0 +1,22 @@
+//Base
+
+@import "./utils/variables";
+@import "./utils/common";
+@import "./utils/mixins";
+@import "./utils/former";
+
+//loyouts
+
+@import "./layouts/header";
+
+@import "./layouts/hero";
+@import "./components/modal";
+@import "./layouts/perevagu";
+@import "./layouts/work";
+@import "./layouts/equipo";
+@import "./layouts/clients";
+
+
+@import "./layouts/footer";
+
+@import "./layouts/portfolio";
