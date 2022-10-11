@@ -1,0 +1,28 @@
+.hero__text{
+    max-width: 696px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: var(--tres-text) ;
+    text-transform: uppercase;
+    @include front(900, 44px);
+    text-align: center;
+    line-height: 1.36;
+ }
+ .section-title{
+    margin-bottom: 50px;
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    @include front(700, 36px);
+    line-height: 1.17;
+    text-align: center;
+}
+.post-client__text{
+    margin-bottom: 50px;
+    color: var(--title-text-color);
+    @include front(700, 36px );
+    
+    line-height: 1.17;
+    text-align: center;
+   letter-spacing: 0.03em;
+}

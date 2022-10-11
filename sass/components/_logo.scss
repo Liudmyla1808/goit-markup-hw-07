@@ -1,0 +1,15 @@
+.navigation__logo{
+    // display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color:var(--accent-color) ;
+    font-family: 'Raleway', sans-serif;
+    @include front(700, 26px);
+    line-height: 1.2;
+}
+.navigation__logo--color{
+    color:var(--second-text) ;
+    font-family: 'Raleway', sans-serif;
+    @include front(700, 26px);
+    line-height: 1.2;
+}
